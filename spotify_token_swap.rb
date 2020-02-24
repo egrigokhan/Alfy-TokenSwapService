@@ -37,9 +37,9 @@ require 'encrypted_strings'
 #
 # Find your app at https://developer.spotify.com/my-applications/#!/applications
 
-CLIENT_ID = "883a55a54f0244819ebac550ccbb3319" # TODO: Get it from Spotify
-CLIENT_SECRET = "7a08ff4392f74354bc8205955b686c22" # TODO: Get it from Spotify
-CLIENT_CALLBACK_URL = "alfy://logincallback" # TODO: Get it from Spotify
+CLIENT_ID = "76af131f19ad42b18dd5cc8877f2aabd" # process.env.SPOTIFY_CLIENT_ID;
+CLIENT_SECRET = "c733686d91ea427892e5a0552fe320c8" # process.env.SPOTIFY_CLIENT_SECRET;
+CLIENT_CALLBACK_URL = "Spotist://returnAfterLogin" # process.env.SPOTIFY_CLIENT_CALLBACK;
 
 # I don't think the secret should be changed...
 ENCRYPTION_SECRET = "cFJLyifeUJUBFWdHzVbykfDmPHtLKLGzViHW9aHGmyTLD8hGXC"
